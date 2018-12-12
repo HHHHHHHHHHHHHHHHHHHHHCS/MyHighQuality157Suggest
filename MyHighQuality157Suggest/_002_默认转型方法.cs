@@ -72,6 +72,8 @@ namespace MyHighQuality157Suggest
             //子类转换成父类 在转成别的子类也会报错
             //anim = cat;
             //dog = (Dog)anim;
+            //但是这里用as 是不会报错的  不过dog会是null
+            //dog = anim as Dog;
         }
 
         #region Ip Class

@@ -47,6 +47,8 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="_001_正确的字符串.cs" />
     <Compile Include="_002_默认转型方法.cs" />
+    <Compile Include="_003_AsIs区别.cs" />
+    <Compile Include="_004_TryParse比Parse好.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
