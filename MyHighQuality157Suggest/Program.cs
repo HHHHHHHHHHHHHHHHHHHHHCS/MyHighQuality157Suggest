@@ -10,8 +10,8 @@ namespace MyHighQuality157Suggest
     {
         private static void Main(string[] args)
         {
-            var t = new _004_TryParse比Parse好();
-            t.Test01();
+            var t = new _001_正确的字符串();
+            t.B_Test06();
         }
     }
 }
