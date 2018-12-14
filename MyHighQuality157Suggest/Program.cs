@@ -10,8 +10,8 @@ namespace MyHighQuality157Suggest
     {
         private static void Main(string[] args)
         {
-            var t = new _001_正确的字符串();
-            t.B_Test06();
+            var t = new _007_Enum初始为0();
+            t.Test04();
         }
     }
 }
