@@ -56,6 +56,8 @@
     <Compile Include="_007_Enum初始为0.cs" />
     <Compile Include="_008_避免给枚举提供显示值.cs" />
     <Compile Include="_009_ 多用重载符.cs" />
+    <Compile Include="_010_实现比较器.cs" />
+    <Compile Include="_011_等号Equals.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

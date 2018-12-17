@@ -10,7 +10,7 @@ namespace MyHighQuality157Suggest
     {
         private static void Main(string[] args)
         {
-            var t = new _007_Enum初始为0();
+            var t = new _011_等号Equals();
             t.Test04();
         }
     }
