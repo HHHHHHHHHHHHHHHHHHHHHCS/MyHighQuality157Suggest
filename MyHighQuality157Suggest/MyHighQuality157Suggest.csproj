@@ -58,6 +58,7 @@
     <Compile Include="_009_ 多用重载符.cs" />
     <Compile Include="_010_实现比较器.cs" />
     <Compile Include="_011_等号Equals.cs" />
+    <Compile Include="_012_GetHashCode.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

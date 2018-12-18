@@ -86,7 +86,7 @@ namespace MyHighQuality157Suggest
             }
         }
 
-        private class Unit
+        private class Unit : IEquatable<Unit>
         {
             public int ID { get; set; }
 
@@ -104,6 +104,10 @@ namespace MyHighQuality157Suggest
                 return ID == o.ID;
             }
 
+            public bool Equals(Unit obj)
+            {
+                return obj!=null&& ID == obj.ID;
+            }
 
             public static bool operator == (Unit unit, object obj)
             {
