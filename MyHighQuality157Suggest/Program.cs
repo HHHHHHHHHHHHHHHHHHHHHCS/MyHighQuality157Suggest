@@ -10,8 +10,8 @@ namespace MyHighQuality157Suggest
     {
         private static void Main(string[] args)
         {
-            var t = new _012_GetHashCode();
-            t.Test05();
+            var t = new _014_深浅拷贝();
+            t.Test02();
         }
     }
 }

@@ -59,6 +59,8 @@
     <Compile Include="_010_实现比较器.cs" />
     <Compile Include="_011_等号Equals.cs" />
     <Compile Include="_012_GetHashCode.cs" />
+    <Compile Include="_013_FormatToString.cs" />
+    <Compile Include="_014_深浅拷贝.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
