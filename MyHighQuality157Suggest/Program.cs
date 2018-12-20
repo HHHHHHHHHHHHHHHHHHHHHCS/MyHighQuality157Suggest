@@ -10,8 +10,10 @@ namespace MyHighQuality157Suggest
     {
         private static void Main(string[] args)
         {
-            var t = new _014_深浅拷贝();
+            var t = new _016_元素长度可变下用List();
+            t.Test01();
             t.Test02();
+            t.Test03();
         }
     }
 }

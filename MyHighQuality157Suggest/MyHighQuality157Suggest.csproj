@@ -61,6 +61,8 @@
     <Compile Include="_012_GetHashCode.cs" />
     <Compile Include="_013_FormatToString.cs" />
     <Compile Include="_014_深浅拷贝.cs" />
+    <Compile Include="_015_Dynamic简化反射.cs" />
+    <Compile Include="_016_元素长度可变下用List.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
