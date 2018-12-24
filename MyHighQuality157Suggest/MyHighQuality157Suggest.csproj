@@ -63,6 +63,9 @@
     <Compile Include="_014_深浅拷贝.cs" />
     <Compile Include="_015_Dynamic简化反射.cs" />
     <Compile Include="_016_元素长度可变下用List.cs" />
+    <Compile Include="_017_用Foreach.cs" />
+    <Compile Include="_018_foreach不能代替for.cs" />
+    <Compile Include="_019_更好的初始化.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
