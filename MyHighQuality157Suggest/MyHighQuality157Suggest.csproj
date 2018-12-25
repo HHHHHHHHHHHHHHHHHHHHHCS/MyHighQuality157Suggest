@@ -66,6 +66,8 @@
     <Compile Include="_017_用Foreach.cs" />
     <Compile Include="_018_foreach不能代替for.cs" />
     <Compile Include="_019_更好的初始化.cs" />
+    <Compile Include="_020_使用泛型.cs" />
+    <Compile Include="_021_正确容器.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
