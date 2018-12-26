@@ -68,6 +68,8 @@
     <Compile Include="_019_更好的初始化.cs" />
     <Compile Include="_020_使用泛型.cs" />
     <Compile Include="_021_正确容器.cs" />
+    <Compile Include="_022_线程安全容器.cs" />
+    <Compile Include="_023_避免继承List等.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
