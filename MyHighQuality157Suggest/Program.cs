@@ -10,8 +10,10 @@ namespace MyHighQuality157Suggest
     {
         private static void Main(string[] args)
         {
-            var t = new _023_避免继承List等();
-            t.Test03();
+            var t = new _024_迭代器应该只读();
+            t.Test01();
+            t.Test02();
+            t.Test01();
         }
     }
 }
