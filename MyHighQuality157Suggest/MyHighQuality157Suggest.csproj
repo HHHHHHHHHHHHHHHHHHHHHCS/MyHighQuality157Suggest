@@ -71,6 +71,9 @@
     <Compile Include="_022_线程安全容器.cs" />
     <Compile Include="_023_避免继承List等.cs" />
     <Compile Include="_024_迭代器应该只读.cs" />
+    <Compile Include="_025_避免集合的可写.cs" />
+    <Compile Include="_026_匿名类存储LINQ结果.cs" />
+    <Compile Include="_027_查询中用Lambda.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

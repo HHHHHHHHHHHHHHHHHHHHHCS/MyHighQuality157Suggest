@@ -10,9 +10,7 @@ namespace MyHighQuality157Suggest
     {
         private static void Main(string[] args)
         {
-            var t = new _024_迭代器应该只读();
-            t.Test01();
-            t.Test02();
+            var t = new _026_匿名类存储LINQ结果();
             t.Test01();
         }
     }
