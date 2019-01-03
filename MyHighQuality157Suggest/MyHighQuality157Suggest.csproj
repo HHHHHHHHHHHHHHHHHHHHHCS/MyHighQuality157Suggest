@@ -74,6 +74,9 @@
     <Compile Include="_025_避免集合的可写.cs" />
     <Compile Include="_026_匿名类存储LINQ结果.cs" />
     <Compile Include="_027_查询中用Lambda.cs" />
+    <Compile Include="_028_延迟求值主动求值.cs" />
+    <Compile Include="_029_区别LINQ的IE和IQ.cs" />
+    <Compile Include="_030_用LINQ代替集合的比较器迭代器.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
