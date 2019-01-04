@@ -10,8 +10,8 @@ namespace MyHighQuality157Suggest
     {
         private static void Main(string[] args)
         {
-            var t = new _030_用LINQ代替集合的比较器迭代器();
-            t.Test02();
+            var t = new _033_避免泛型静态成员();
+            t.Test03();
         }
     }
 }

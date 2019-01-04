@@ -77,6 +77,10 @@
     <Compile Include="_028_延迟求值主动求值.cs" />
     <Compile Include="_029_区别LINQ的IE和IQ.cs" />
     <Compile Include="_030_用LINQ代替集合的比较器迭代器.cs" />
+    <Compile Include="_031_LINQ避免不必要的迭代.cs" />
+    <Compile Include="_032_优先考虑泛型.cs" />
+    <Compile Include="_033_避免泛型静态成员.cs" />
+    <Compile Include="_034_泛型加约束.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
