@@ -10,8 +10,8 @@ namespace MyHighQuality157Suggest
     {
         private static void Main(string[] args)
         {
-            var t = new _033_避免泛型静态成员();
-            t.Test03();
+            var t = new _040_event保护delegate();
+            t.Test02();
         }
     }
 }

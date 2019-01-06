@@ -85,6 +85,10 @@
     <Compile Include="_034_泛型加约束.cs" />
     <Compile Include="_035_default初始T.cs" />
     <Compile Include="_036_FCL委托申明.cs" />
+    <Compile Include="_037_用Lambda.cs" />
+    <Compile Include="_038_闭包陷阱.cs" />
+    <Compile Include="_040_event保护delegate.cs" />
+    <Compile Include="_039_委托delegate.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
