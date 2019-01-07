@@ -10,8 +10,8 @@ namespace MyHighQuality157Suggest
     {
         private static void Main(string[] args)
         {
-            var t = new _040_event保护delegate();
-            t.Test02();
+            var t = new _041_标准的事件模型();
+            t.Test01();
         }
     }
 }
