@@ -10,7 +10,7 @@ namespace MyHighQuality157Suggest
     {
         private static void Main(string[] args)
         {
-            var t = new _041_标准的事件模型();
+            var t = new _044_添加逆变();
             t.Test01();
         }
     }
