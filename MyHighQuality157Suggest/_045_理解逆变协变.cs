@@ -10,7 +10,7 @@ namespace MyHighQuality157Suggest
     /// in-通过逆变，可以使用与泛型参数指定的派生类型相比，派生程度更小的类型。这样可以对委托类型和实现变体接口的类进行隐式转换.
     /// out-通过协变，可以使用与泛型参数指定的派生类型相比，派生程度更大的类型。
     /// </summary>
-    public class _043_逆变协变
+    public class _045_理解逆变协变
     {
         /// <summary>
         /// 逆变

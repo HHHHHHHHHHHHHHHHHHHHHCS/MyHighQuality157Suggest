@@ -90,9 +90,11 @@
     <Compile Include="_040_event保护delegate.cs" />
     <Compile Include="_039_委托delegate.cs" />
     <Compile Include="_041_标准的事件模型.cs" />
-    <Compile Include="_042_泛型协变.cs" />
-    <Compile Include="_043_逆变协变.cs" />
+    <Compile Include="_042_泛型兼容.cs" />
+    <Compile Include="_043_泛型协变.cs" />
+    <Compile Include="_045_理解逆变协变.cs" />
     <Compile Include="_044_添加逆变.cs" />
+    <Compile Include="_046_显示释放IDisposable.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

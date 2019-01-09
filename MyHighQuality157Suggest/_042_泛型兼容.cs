@@ -9,28 +9,20 @@ namespace MyHighQuality157Suggest
     /// <summary>
     /// 协变-> out T
     /// </summary>
-    public class _042_泛型协变
+    public class _042_泛型兼容
     {
         public void Test01()
         {
             ISalary<Programmer> p = new BaseSalaryCounter<Programmer>();
-            PrintSalary1(p);
             PrintSalary(p);
         }
 
-        //注意 如果不加out T 会报类型转换错误
-        private void PrintSalary1(ISalary<Employee> p)
-        {
-            p.Pay();
-        }
-
-        //不过也能这样
         private void PrintSalary<T>(ISalary<T> p) 
         {
             p.Pay();
         }
 
-        interface ISalary<out T>
+        interface ISalary< T>
         {
             void Pay();
         }
