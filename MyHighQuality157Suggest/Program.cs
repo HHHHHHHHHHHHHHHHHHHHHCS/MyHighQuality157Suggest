@@ -10,7 +10,7 @@ namespace MyHighQuality157Suggest
     {
         private static void Main(string[] args)
         {
-            var t = new _044_添加逆变();
+            var t = new _049_Dispose可被继承();
             t.Test01();
         }
     }

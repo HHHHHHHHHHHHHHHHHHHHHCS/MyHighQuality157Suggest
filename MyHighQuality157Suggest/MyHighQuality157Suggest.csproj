@@ -95,6 +95,10 @@
     <Compile Include="_045_理解逆变协变.cs" />
     <Compile Include="_044_添加逆变.cs" />
     <Compile Include="_046_显示释放IDisposable.cs" />
+    <Compile Include="_047_用终结器提供隐式清理.cs" />
+    <Compile Include="_048_Dispose可被多次调用.cs" />
+    <Compile Include="_049_Dispose可被继承.cs" />
+    <Compile Include="_050_托管和非托管资源.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
