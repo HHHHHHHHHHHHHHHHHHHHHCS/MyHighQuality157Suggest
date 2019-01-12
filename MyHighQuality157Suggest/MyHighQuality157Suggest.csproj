@@ -99,6 +99,10 @@
     <Compile Include="_048_Dispose可被多次调用.cs" />
     <Compile Include="_049_Dispose可被继承.cs" />
     <Compile Include="_050_托管和非托管资源.cs" />
+    <Compile Include="_054_为无用字段添加不可序列化.cs" />
+    <Compile Include="_053_及时赋值null.cs" />
+    <Compile Include="_052_及时释放资源.cs" />
+    <Compile Include="_051_有释放字段类应可释放.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
