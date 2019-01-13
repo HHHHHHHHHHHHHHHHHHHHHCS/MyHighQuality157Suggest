@@ -24,6 +24,66 @@ namespace MyHighQuality157Suggest
     /// </summary>
     public class _054_为无用字段添加不可序列化
     {
+        public void Test01()
+        {
+            Person mike = new Person() {Age = 21, Name = "Mike"};
+            mike.NameChanged += NameChanged;//这里用Lambda,会报找不到序列化的错误
 
+            BinarySerializer.SerializeToFile(mike,@"E:/",@"x.txt");
+            var newP = BinarySerializer.DeserializeFromFile<Person>(@"E:/x.txt");
+
+            Console.WriteLine(newP.Name);
+            newP.Name = "2333";
+            Console.WriteLine(mike.Name);
+        }
+
+
+        public static void NameChanged(object sender, EventArgs e)
+        {
+
+                Console.WriteLine(sender + "Name Changed:" + (e as MyEventArgs)?.name);
+        }
+
+        [Serializable]
+        private class Person
+        {
+            /// <summary>
+            /// 这个会被序列化
+            /// </summary>
+            [field:NonSerialized]
+            public event EventHandler NameChanged;
+
+            private string name;
+
+            /// <summary>
+            /// 这个会被序列化,直接get,set会被序列化
+            /// </summary>
+            public int Age { get; set; }
+
+            /// <summary>
+            /// 不会被序列化
+            /// </summary>
+            [NonSerialized]
+            private string unuse;
+
+            /// <summary>
+            /// 这个本来就不会被序列化
+            /// </summary>
+            public string Name
+            {
+                get => name;
+                set
+                {
+                    name = value;
+                    NameChanged?.Invoke(this, new MyEventArgs() {name = value});
+                }
+            }
+        }
+
+        [Serializable]
+        private class MyEventArgs : EventArgs
+        {
+            public string name;
+        }
     }
 }

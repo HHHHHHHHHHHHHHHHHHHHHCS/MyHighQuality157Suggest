@@ -10,7 +10,7 @@ namespace MyHighQuality157Suggest
     {
         private static void Main(string[] args)
         {
-            var t = new _049_Dispose可被继承();
+            var t = new _055_定制可序列化();
             t.Test01();
         }
     }

@@ -45,6 +45,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BinarySerializer.cs" />
     <Compile Include="M001_SwitchDictionary.cs" />
     <Compile Include="M002_字符判断.cs" />
     <Compile Include="Program.cs" />
@@ -103,6 +104,7 @@
     <Compile Include="_053_及时赋值null.cs" />
     <Compile Include="_052_及时释放资源.cs" />
     <Compile Include="_051_有释放字段类应可释放.cs" />
+    <Compile Include="_055_定制可序列化.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

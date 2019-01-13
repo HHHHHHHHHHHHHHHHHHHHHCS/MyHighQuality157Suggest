@@ -97,9 +97,9 @@ namespace MyHighQuality157Suggest
 
             public object Clone()
             {
-                using (Stream objStr = new MemoryStream())
+                using (MemoryStream objStr = new MemoryStream())
                 {
-                    IFormatter formatter = new BinaryFormatter();
+                    var formatter = new BinaryFormatter();
                     formatter.Serialize(objStr, this);
                     objStr.Seek(0, SeekOrigin.Begin);
                     return formatter.Deserialize(objStr) as HardClone;
