@@ -105,6 +105,7 @@
     <Compile Include="_052_及时释放资源.cs" />
     <Compile Include="_051_有释放字段类应可释放.cs" />
     <Compile Include="_055_定制可序列化.cs" />
+    <Compile Include="_056_继承ISerializable.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
