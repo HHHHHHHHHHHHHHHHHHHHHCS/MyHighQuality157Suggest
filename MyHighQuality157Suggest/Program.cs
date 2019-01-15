@@ -10,8 +10,8 @@ namespace MyHighQuality157Suggest
     {
         private static void Main(string[] args)
         {
-            var t = new _056_继承ISerializable();
-            t.Test02();
+            var t = new _057_ISerializable子类序列化父类();
+            t.Test03();
         }
     }
 }

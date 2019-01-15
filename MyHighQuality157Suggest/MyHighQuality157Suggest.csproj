@@ -106,6 +106,8 @@
     <Compile Include="_051_有释放字段类应可释放.cs" />
     <Compile Include="_055_定制可序列化.cs" />
     <Compile Include="_056_继承ISerializable.cs" />
+    <Compile Include="_057_ISerializable子类序列化父类.cs" />
+    <Compile Include="_058_抛出异常代替返回代码.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
