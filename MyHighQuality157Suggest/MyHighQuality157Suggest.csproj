@@ -108,6 +108,9 @@
     <Compile Include="_056_继承ISerializable.cs" />
     <Compile Include="_057_ISerializable子类序列化父类.cs" />
     <Compile Include="_058_抛出异常代替返回代码.cs" />
+    <Compile Include="_059_不要乱用异常.cs" />
+    <Compile Include="_060_重新异常时用InnerException.cs" />
+    <Compile Include="_061_避免finally写无效代码.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
