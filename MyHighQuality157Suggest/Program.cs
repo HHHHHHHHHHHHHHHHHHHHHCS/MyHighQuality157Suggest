@@ -10,8 +10,8 @@ namespace MyHighQuality157Suggest
     {
         private static void Main(string[] args)
         {
-            var t = new _061_避免finally写无效代码();
-            t.Test01();
+            var t = new _066_正确处理多线程异常();
+            t.Test03();
         }
     }
 }

@@ -111,6 +111,11 @@
     <Compile Include="_059_不要乱用异常.cs" />
     <Compile Include="_060_重新异常时用InnerException.cs" />
     <Compile Include="_061_避免finally写无效代码.cs" />
+    <Compile Include="_062_避免嵌套异常.cs" />
+    <Compile Include="_063_避免吃掉异常.cs" />
+    <Compile Include="_064_避免给循环添加异常.cs" />
+    <Compile Include="_065_总是处理未捕获的异常.cs" />
+    <Compile Include="_066_正确处理多线程异常.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
