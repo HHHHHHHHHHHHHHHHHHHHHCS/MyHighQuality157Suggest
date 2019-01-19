@@ -116,6 +116,8 @@
     <Compile Include="_064_避免给循环添加异常.cs" />
     <Compile Include="_065_总是处理未捕获的异常.cs" />
     <Compile Include="_066_正确处理多线程异常.cs" />
+    <Compile Include="_067_慎用自定义异常.cs" />
+    <Compile Include="_068_从常见基本异常中派生异常.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
