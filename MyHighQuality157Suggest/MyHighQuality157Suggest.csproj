@@ -118,6 +118,9 @@
     <Compile Include="_066_正确处理多线程异常.cs" />
     <Compile Include="_067_慎用自定义异常.cs" />
     <Compile Include="_068_从常见基本异常中派生异常.cs" />
+    <Compile Include="_069_使用finally避免资源泄漏.cs" />
+    <Compile Include="_070_避免在调用栈低位置记录异常.cs" />
+    <Compile Include="_071_区分异步和多线程.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

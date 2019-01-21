@@ -10,8 +10,9 @@ namespace MyHighQuality157Suggest
     {
         private static void Main(string[] args)
         {
-            var t = new _068_从常见基本异常中派生异常();
+            var t = new _071_区分异步和多线程();
             t.Test01();
+            t.Test02();
         }
     }
 }
