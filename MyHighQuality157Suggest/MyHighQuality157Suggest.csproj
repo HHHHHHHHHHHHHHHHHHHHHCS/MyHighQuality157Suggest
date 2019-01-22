@@ -121,6 +121,7 @@
     <Compile Include="_069_使用finally避免资源泄漏.cs" />
     <Compile Include="_070_避免在调用栈低位置记录异常.cs" />
     <Compile Include="_071_区分异步和多线程.cs" />
+    <Compile Include="_072_线程同步用信号量.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

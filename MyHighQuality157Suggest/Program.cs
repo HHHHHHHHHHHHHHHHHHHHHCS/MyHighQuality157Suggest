@@ -10,9 +10,8 @@ namespace MyHighQuality157Suggest
     {
         private static void Main(string[] args)
         {
-            var t = new _071_区分异步和多线程();
+            var t = new _072_线程同步用信号量();
             t.Test01();
-            t.Test02();
         }
     }
 }
