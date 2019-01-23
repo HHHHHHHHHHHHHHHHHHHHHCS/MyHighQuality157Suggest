@@ -10,8 +10,8 @@ namespace MyHighQuality157Suggest
     {
         private static void Main(string[] args)
         {
-            var t = new _072_线程同步用信号量();
-            t.Test01();
+            var t = new _075_警惕线程不会立即启动();
+            t.Test02();
         }
     }
 }

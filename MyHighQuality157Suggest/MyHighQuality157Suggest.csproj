@@ -122,6 +122,9 @@
     <Compile Include="_070_避免在调用栈低位置记录异常.cs" />
     <Compile Include="_071_区分异步和多线程.cs" />
     <Compile Include="_072_线程同步用信号量.cs" />
+    <Compile Include="_073_避免锁定不恰当对象.cs" />
+    <Compile Include="_074_警惕IsBackground.cs" />
+    <Compile Include="_075_警惕线程不会立即启动.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
