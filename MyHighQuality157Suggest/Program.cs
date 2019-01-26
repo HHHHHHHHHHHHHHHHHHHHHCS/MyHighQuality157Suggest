@@ -10,8 +10,8 @@ namespace MyHighQuality157Suggest
     {
         private static void Main(string[] args)
         {
-            var t = new _078_避免线程数量过多();
-            t.Test01();
+            var t = new _079_代替Thread();
+            t.Test02();
         }
     }
 }
