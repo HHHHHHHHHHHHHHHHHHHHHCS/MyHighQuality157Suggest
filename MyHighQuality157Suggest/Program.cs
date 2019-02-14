@@ -10,8 +10,8 @@ namespace MyHighQuality157Suggest
     {
         private static void Main(string[] args)
         {
-            var t = new _079_代替Thread();
-            t.Test02();
+            var t = new _080_用Task代替ThreadPool();
+            t.Test03();
         }
     }
 }

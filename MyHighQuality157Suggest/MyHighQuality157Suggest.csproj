@@ -129,6 +129,7 @@
     <Compile Include="_077_正确停止线程.cs" />
     <Compile Include="_078_避免线程数量过多.cs" />
     <Compile Include="_079_代替Thread.cs" />
+    <Compile Include="_080_用Task代替ThreadPool.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
