@@ -133,6 +133,8 @@
     <Compile Include="_081_使用Parallel简化Task.cs" />
     <Compile Include="_082_Parallel简化不等同于Task默认行为.cs" />
     <Compile Include="_083_小心Parallel中的陷阱.cs" />
+    <Compile Include="_084_使用PLinq.cs" />
+    <Compile Include="_085_Task的异常处理.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
