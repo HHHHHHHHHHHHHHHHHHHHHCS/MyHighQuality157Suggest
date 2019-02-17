@@ -10,8 +10,8 @@ namespace MyHighQuality157Suggest
     {
         private static void Main(string[] args)
         {
-            var t = new _085_Task的异常处理();
-            t.Test04();
+            var t = new _087_区分WPF和WinForm的线程模式();
+            t.Test01();
         }
     }
 }

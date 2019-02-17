@@ -133,7 +133,8 @@ namespace MyHighQuality157Suggest
             {
                 Console.WriteLine("异常类型:{0},{1} 来自内容:{2},{3} 异常内容:{4}", item.GetType(), Environment.NewLine
                     , item.Source, Environment.NewLine, item.Message);
-            
+
+            }
         }
     }
 }

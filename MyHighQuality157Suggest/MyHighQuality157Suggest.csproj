@@ -135,6 +135,8 @@
     <Compile Include="_083_小心Parallel中的陷阱.cs" />
     <Compile Include="_084_使用PLinq.cs" />
     <Compile Include="_085_Task的异常处理.cs" />
+    <Compile Include="_086_Parallel中的异常处理.cs" />
+    <Compile Include="_087_区分WPF和WinForm的线程模式.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
