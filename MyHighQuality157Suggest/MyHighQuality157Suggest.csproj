@@ -137,6 +137,8 @@
     <Compile Include="_085_Task的异常处理.cs" />
     <Compile Include="_086_Parallel中的异常处理.cs" />
     <Compile Include="_087_区分WPF和WinForm的线程模式.cs" />
+    <Compile Include="_088_并行并不是总是速度更快.cs" />
+    <Compile Include="_089_并行中谨慎用锁.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
