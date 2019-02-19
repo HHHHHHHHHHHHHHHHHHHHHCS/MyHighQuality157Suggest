@@ -139,6 +139,10 @@
     <Compile Include="_087_区分WPF和WinForm的线程模式.cs" />
     <Compile Include="_088_并行并不是总是速度更快.cs" />
     <Compile Include="_089_并行中谨慎用锁.cs" />
+    <Compile Include="_090_不要为抽象类提供公开的构造方法.cs" />
+    <Compile Include="_091_可见字段应该重构为属性.cs" />
+    <Compile Include="_092_谨慎将数组或集合作为属性.cs" />
+    <Compile Include="_093_构造方法应初始化主要属性和字段.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

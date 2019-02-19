@@ -10,8 +10,8 @@ namespace MyHighQuality157Suggest
     {
         private static void Main(string[] args)
         {
-            var t = new _089_并行中谨慎用锁();
-            t.Test02();
+            var t = new _092_谨慎将数组或集合作为属性();
+            t.Test01();
         }
     }
 }
