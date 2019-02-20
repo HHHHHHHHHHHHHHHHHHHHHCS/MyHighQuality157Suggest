@@ -143,6 +143,8 @@
     <Compile Include="_091_可见字段应该重构为属性.cs" />
     <Compile Include="_092_谨慎将数组或集合作为属性.cs" />
     <Compile Include="_093_构造方法应初始化主要属性和字段.cs" />
+    <Compile Include="_094_区别对待override和new.cs" />
+    <Compile Include="_095_避免在构造方法中调用虚成员.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

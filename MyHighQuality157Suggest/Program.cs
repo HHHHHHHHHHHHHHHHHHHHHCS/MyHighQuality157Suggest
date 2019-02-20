@@ -10,7 +10,7 @@ namespace MyHighQuality157Suggest
     {
         private static void Main(string[] args)
         {
-            var t = new _092_谨慎将数组或集合作为属性();
+            var t = new _095_避免在构造方法中调用虚成员();
             t.Test01();
         }
     }
