@@ -10,7 +10,7 @@ namespace MyHighQuality157Suggest
     {
         private static void Main(string[] args)
         {
-            var t = new _095_避免在构造方法中调用虚成员();
+            var t = new _099_重写时不应使用子类参数();
             t.Test01();
         }
     }

@@ -35,6 +35,7 @@
     <LangVersion>7.1</LangVersion>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Microsoft.Build.Tasks.v4.0" />
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -145,6 +146,10 @@
     <Compile Include="_093_构造方法应初始化主要属性和字段.cs" />
     <Compile Include="_094_区别对待override和new.cs" />
     <Compile Include="_095_避免在构造方法中调用虚成员.cs" />
+    <Compile Include="_096_成员优先考虑公开基类型或接口.cs" />
+    <Compile Include="_097_优先考虑将基类或接口作为参数传递.cs" />
+    <Compile Include="_098_用params减少重复参数.cs" />
+    <Compile Include="_099_重写时不应使用子类参数.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
