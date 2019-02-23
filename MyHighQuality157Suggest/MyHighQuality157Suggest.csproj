@@ -150,6 +150,8 @@
     <Compile Include="_097_优先考虑将基类或接口作为参数传递.cs" />
     <Compile Include="_098_用params减少重复参数.cs" />
     <Compile Include="_099_重写时不应使用子类参数.cs" />
+    <Compile Include="_100_静态方法和实例方法没有区别.cs" />
+    <Compile Include="_101_使用扩展方法向先有类型添加方法.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
