@@ -64,6 +64,7 @@
     <Compile Include="_011_等号Equals.cs" />
     <Compile Include="_012_GetHashCode.cs" />
     <Compile Include="_013_FormatToString.cs" />
+    <Compile Include="_103_区分组合和继承的应用场合.cs" />
     <Compile Include="_014_深浅拷贝.cs" />
     <Compile Include="_015_Dynamic简化反射.cs" />
     <Compile Include="_016_元素长度可变下用List.cs" />
@@ -152,6 +153,8 @@
     <Compile Include="_099_重写时不应使用子类参数.cs" />
     <Compile Include="_100_静态方法和实例方法没有区别.cs" />
     <Compile Include="_101_使用扩展方法向先有类型添加方法.cs" />
+    <Compile Include="_102_区分接口和抽象类的应用场合.cs" />
+    <Compile Include="_104_用多态代替条件语句.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
