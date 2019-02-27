@@ -10,7 +10,7 @@ namespace MyHighQuality157Suggest
     {
         private static void Main(string[] args)
         {
-            var t = new _099_重写时不应使用子类参数();
+            var t = new _106_为静态类添加静态构造函数();
             t.Test01();
         }
     }
