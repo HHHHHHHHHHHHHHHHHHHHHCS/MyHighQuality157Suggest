@@ -158,6 +158,10 @@
     <Compile Include="_105_使用私有构造函数强化单例.cs" />
     <Compile Include="_106_为静态类添加静态构造函数.cs" />
     <Compile Include="_107_区分静态类和单例.cs" />
+    <Compile Include="_108_将类型标识为sealed.cs" />
+    <Compile Include="_109_谨慎使用嵌套类.cs" />
+    <Compile Include="_110_用类代替enum.cs" />
+    <Compile Include="_111_避免双向耦合.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
