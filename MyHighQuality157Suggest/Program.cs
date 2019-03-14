@@ -10,8 +10,8 @@ namespace MyHighQuality157Suggest
     {
         private static void Main(string[] args)
         {
-            var t = new _110_用类代替enum();
-            t.Test01();
+            var t = new _114_MD5不再安全();
+            t.Test02();
         }
     }
 }

@@ -162,6 +162,9 @@
     <Compile Include="_109_谨慎使用嵌套类.cs" />
     <Compile Include="_110_用类代替enum.cs" />
     <Compile Include="_111_避免双向耦合.cs" />
+    <Compile Include="_112_现实对象抽象类复用对象命名空间.cs" />
+    <Compile Include="_113_声明变量前考虑最大值.cs" />
+    <Compile Include="_114_MD5不再安全.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
