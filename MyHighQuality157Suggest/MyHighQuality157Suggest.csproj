@@ -167,6 +167,9 @@
     <Compile Include="_114_MD5不再安全.cs" />
     <Compile Include="_115_通过HASH来验证文件是否被篡改.cs" />
     <Compile Include="_116_避免用非对称算法加密文件.cs" />
+    <Compile Include="_118_使用SecureString保存密钥等机密字符串.cs" />
+    <Compile Include="_119_不要使用自己的加密算法.cs" />
+    <Compile Include="_117_使用SSL确保通信中数据的安全.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
