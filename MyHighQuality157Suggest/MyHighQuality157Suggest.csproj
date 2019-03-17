@@ -170,6 +170,8 @@
     <Compile Include="_118_使用SecureString保存密钥等机密字符串.cs" />
     <Compile Include="_119_不要使用自己的加密算法.cs" />
     <Compile Include="_117_使用SSL确保通信中数据的安全.cs" />
+    <Compile Include="_120_为程序集指定强名称.cs" />
+    <Compile Include="_121_为应用程序设定运行权限.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

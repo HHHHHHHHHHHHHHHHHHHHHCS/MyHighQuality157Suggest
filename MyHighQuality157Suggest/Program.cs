@@ -10,8 +10,8 @@ namespace MyHighQuality157Suggest
     {
         private static void Main(string[] args)
         {
-            var t = new _114_MD5不再安全();
-            t.Test02();
+            var t = new _121_为应用程序设定运行权限();
+            t.Test03();
         }
     }
 }
