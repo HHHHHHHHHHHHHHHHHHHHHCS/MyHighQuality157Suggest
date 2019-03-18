@@ -172,6 +172,9 @@
     <Compile Include="_117_使用SSL确保通信中数据的安全.cs" />
     <Compile Include="_120_为程序集指定强名称.cs" />
     <Compile Include="_121_为应用程序设定运行权限.cs" />
+    <Compile Include="_122_以Company_Component为命名空间命名.cs" />
+    <Compile Include="_123_程序集不必与命名空间同名.cs" />
+    <Compile Include="_124_考虑在命名空间中使用复数.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
