@@ -175,6 +175,9 @@
     <Compile Include="_122_以Company_Component为命名空间命名.cs" />
     <Compile Include="_123_程序集不必与命名空间同名.cs" />
     <Compile Include="_124_考虑在命名空间中使用复数.cs" />
+    <Compile Include="_125_避免用FCL的类型名称命名自己的类型.cs" />
+    <Compile Include="_126_用名词和名词组给类型命名.cs" />
+    <Compile Include="_127_用形容词组给接口命名.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
