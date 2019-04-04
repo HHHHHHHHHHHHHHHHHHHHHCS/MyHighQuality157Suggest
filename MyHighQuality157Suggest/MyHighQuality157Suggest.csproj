@@ -178,6 +178,11 @@
     <Compile Include="_125_避免用FCL的类型名称命名自己的类型.cs" />
     <Compile Include="_126_用名词和名词组给类型命名.cs" />
     <Compile Include="_127_用形容词组给接口命名.cs" />
+    <Compile Include="_128_考虑让派生类的名字以基类名字作为后缀.cs" />
+    <Compile Include="_129_泛型类型参数要以T作为前缀.cs" />
+    <Compile Include="_130_以复数命名枚举类型以单数命名枚举元素.cs" />
+    <Compile Include="_131_用大写开头命名公开元素.cs" />
+    <Compile Include="_132_考虑用类名作为属性名.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
