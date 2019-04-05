@@ -183,6 +183,10 @@
     <Compile Include="_130_以复数命名枚举类型以单数命名枚举元素.cs" />
     <Compile Include="_131_用大写开头命名公开元素.cs" />
     <Compile Include="_132_考虑用类名作为属性名.cs" />
+    <Compile Include="_133_用小写开头命名私有字段和局部变量.cs" />
+    <Compile Include="_134_有条件地使用前缀.cs" />
+    <Compile Include="_135_考虑使用肯定性的短语命名布尔属性.cs" />
+    <Compile Include="_136_优先使用后缀表示已有类型的新版本.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
