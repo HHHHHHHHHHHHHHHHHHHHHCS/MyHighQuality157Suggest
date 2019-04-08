@@ -190,6 +190,10 @@
     <Compile Include="_137_委托和事件类型应添加上级后缀.cs" />
     <Compile Include="_138_事件和委托变量使用动词或形容词短语命名.cs" />
     <Compile Include="_139_事件处理器命名采用组合方式.cs" />
+    <Compile Include="_140_使用默认的访问修饰符.cs" />
+    <Compile Include="_141_不知道该不该用大括号时就用.cs" />
+    <Compile Include="_142_总是提供有意义的命名.cs" />
+    <Compile Include="_143_方法抽象级别应在同一层次.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
