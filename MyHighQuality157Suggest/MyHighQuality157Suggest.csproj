@@ -194,6 +194,11 @@
     <Compile Include="_141_不知道该不该用大括号时就用.cs" />
     <Compile Include="_142_总是提供有意义的命名.cs" />
     <Compile Include="_143_方法抽象级别应在同一层次.cs" />
+    <Compile Include="_144_一个方法只做一件事.cs" />
+    <Compile Include="_145_避免过场的方法和过长的类.cs" />
+    <Compile Include="_146_只对外公布必要操作.cs" />
+    <Compile Include="_147_重构多个相关属性为一个类.cs" />
+    <Compile Include="_148_不重复代码.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
