@@ -199,6 +199,15 @@
     <Compile Include="_146_只对外公布必要操作.cs" />
     <Compile Include="_147_重构多个相关属性为一个类.cs" />
     <Compile Include="_148_不重复代码.cs" />
+    <Compile Include="_149_使用表驱动法避免过长的if和switch分支.cs" />
+    <Compile Include="_150_使用匿名方法Lambda表达式代替方法.cs" />
+    <Compile Include="_151_使用事件访问器代替公开的事件成员变量.cs" />
+    <Compile Include="_152_最少甚至是不要注释.cs" />
+    <Compile Include="_153_若抛出异常则必须注释.cs" />
+    <Compile Include="_154_不要过度设计在敏捷中体会重构的乐趣.cs" />
+    <Compile Include="_155_随生产代码一起提交单元测试代码.cs" />
+    <Compile Include="_156_利用特性为应用程序提供多个版本.cs" />
+    <Compile Include="_157_从写第一个界面开始就进行自动化测试.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
